@@ -14,14 +14,15 @@ export default function DataBokingTable() {
                                         {/* <div className="card-title">
                                             <h6 className="mr-2"><span>Admin</span></h6>
                                         </div> */}
-                                        <div className="row">
-                                            <div className="col-sm-8">Admin</div>
-                                            <div className="col-sm-4">
-                                                <Link href="/admin/formtambahboking">
+                                        <div className="d-flex bd-highlight">
+                                            <div className="p-2 flex-grow-1 bd-highlight">Admin</div>
+                                            <div className="p-2 bd-highlight">
+                                            <Link href="/admin/formtambahboking">
                                                     <button className='btn btn-primary'>Tambah Data</button>
                                                 </Link>
                                             </div>
                                         </div>
+
 
                                         <div className="e-table">
                                             <div className="table-responsive table-lg mt-3">
