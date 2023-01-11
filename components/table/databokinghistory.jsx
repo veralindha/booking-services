@@ -24,7 +24,6 @@ export default function DataBokingHistory() {
                                                                 <th className="sortable">Jenis Mobil</th>
                                                                 <th className="sortable">Tanggal</th>
                                                                 <th className="sortable">Telp.</th>
-                                                                <th className="sortable">Action</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
