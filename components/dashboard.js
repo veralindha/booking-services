@@ -14,8 +14,8 @@ export default function Dashboard() {
                             <div className="row no-gutters align-items-center">
                                 <div className="col mr-2">
                                     <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                        Earnings (Monthly)</div>
-                                    <div className="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                        Jumlah Boking</div>
+                                    <div className="h5 mb-0 font-weight-bold text-gray-800">23</div>
                                 </div>
                                 <div className="col-auto">
                                     <i className="fas fa-calendar fa-2x text-gray-300" />
@@ -31,8 +31,8 @@ export default function Dashboard() {
                             <div className="row no-gutters align-items-center">
                                 <div className="col mr-2">
                                     <div className="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                        Earnings (Annual)</div>
-                                    <div className="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                        Jumlah Pelanggan</div>
+                                    <div className="h5 mb-0 font-weight-bold text-gray-800">207</div>
                                 </div>
                                 <div className="col-auto">
                                     <i className="fas fa-dollar-sign fa-2x text-gray-300" />

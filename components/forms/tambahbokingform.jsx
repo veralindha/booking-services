@@ -25,9 +25,8 @@ export default function TambahBokingForm() {
                   <label htmlFor="exampleInputName1">Nomor Boking</label>
                   <select id="dudi" className="form-control form-control-sm">
                     <option value="">Pilih...</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
                   </select>
                 </div>
               </div>
