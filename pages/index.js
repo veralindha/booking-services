@@ -1,6 +1,7 @@
 import Layout from '../components/utils/layout'
 import Head from 'next/head'
 import Dashboard from '../components/dashboard'
+import DataBokingHistory from '../components/table/databokinghistory'
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Layout>
         <Dashboard />
+        <DataBokingHistory />
       </Layout>
     </> 
   )

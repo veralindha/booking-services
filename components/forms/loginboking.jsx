@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function LoginBoking() {
@@ -22,7 +23,9 @@ export default function LoginBoking() {
                                         <input className="form-check-input" type="checkbox" defaultValue id="form1Example3" />
                                         <label className="form-check-label" htmlFor="form1Example3"> Remember password </label>
                                     </div>
+                                    <Link href='/'>
                                     <button className="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
