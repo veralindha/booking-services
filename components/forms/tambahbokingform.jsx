@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import Card from '../utils/card'
 
@@ -49,7 +50,9 @@ export default function TambahBokingForm() {
             </div>
           </div>
           <div className="row">
+            <Link href='/admin/tambahboking'>
             <button className="btn btn-primary" type="submit">Simpan</button>
+            </Link>
           </div>
         </form>
       </div>

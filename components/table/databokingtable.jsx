@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function DataBokingTable() {
@@ -10,9 +11,18 @@ export default function DataBokingTable() {
                             <div className="col mb-3">
                                 <div className="e-panel card">
                                     <div className="card-body">
-                                        <div className="card-title">
+                                        {/* <div className="card-title">
                                             <h6 className="mr-2"><span>Admin</span></h6>
+                                        </div> */}
+                                        <div className="row">
+                                            <div className="col-sm-8">Admin</div>
+                                            <div className="col-sm-4">
+                                                <Link href="/admin/formtambahboking">
+                                                    <button className='btn btn-primary'>Tambah Data</button>
+                                                </Link>
+                                            </div>
                                         </div>
+
                                         <div className="e-table">
                                             <div className="table-responsive table-lg mt-3">
                                                 <table className="table table-bordered text-center">
@@ -54,7 +64,7 @@ export default function DataBokingTable() {
                             </div>
 
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
